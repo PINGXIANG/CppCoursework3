@@ -20,7 +20,7 @@ vector<vector<double> > StatisticsSimpleSampleVariance::GetResultsSoFar() const 
 		sum2 += VectorOfPaths[i];
 	}
 
-	double var = (sum1 - (sum2 * sum2) / PathsDone) / (PathsDone - 1);
+	double var = (sum1 - (sum2 * sum2) / PathsDone) / (PathsDone);
 
 	Results[0].resize(1);
 	Results[0][0] = var;
