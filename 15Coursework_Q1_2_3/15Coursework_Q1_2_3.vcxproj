@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0701dc04-440b-4678-92a1-53150ce27eea}</ProjectGuid>
+    <ProjectGuid>{98C75DF1-B73E-4DA0-BB0D-6E40F07C91EA}</ProjectGuid>
     <RootNamespace>My14Exotics</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -154,8 +154,10 @@
     <ClCompile Include="PayOffBridge.cpp" />
     <ClCompile Include="Random2.cpp" />
     <ClCompile Include="SimpleMC8.cpp" />
+    <ClCompile Include="SimpleVariance.cpp" />
     <ClCompile Include="StatisticsMC.cpp" />
     <ClCompile Include="Vanilla3.cpp" />
+    <ClCompile Include="VarianceByWelford.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AntiThetic.h" />
@@ -172,8 +174,10 @@
     <ClInclude Include="PayOffBridge.h" />
     <ClInclude Include="Random2.h" />
     <ClInclude Include="SimpleMC8.h" />
+    <ClInclude Include="SimpleVariance.h" />
     <ClInclude Include="StatisticsMC.h" />
     <ClInclude Include="Vanilla3.h" />
+    <ClInclude Include="VarianceByWelford.h" />
     <ClInclude Include="Wrapper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
