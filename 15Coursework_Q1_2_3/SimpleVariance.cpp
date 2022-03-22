@@ -19,10 +19,10 @@ vector<vector<double> > StatisticsSimpleSampleVariance::GetResultsSoFar() const 
 	{
 		double squared_sum = 0;
 		double sum = 0;
-		for (double path : VectorOfPaths) {
+	for (double path : VectorOfPaths) {
 			squared_sum += path * path;
 			sum += path;
-		}
+	}
 
 		var = (squared_sum - (sum * sum) / PathsDone) / (PathsDone - 1);
 	}

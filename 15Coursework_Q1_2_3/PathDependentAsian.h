@@ -14,7 +14,7 @@ public:
 
     unsigned long MaxNumberOfCashFlows() const override;
     std::valarray<double> PossibleCashFlowTimes() const override;
-
+    
     unsigned long CashFlows(const std::valarray<double>& SpotValues,
         std::vector<CashFlow>& GeneratedFlows) const final;
     

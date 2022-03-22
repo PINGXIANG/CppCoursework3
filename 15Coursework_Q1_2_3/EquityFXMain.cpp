@@ -166,18 +166,5 @@ int main()
         cout << "\n";
     }
 
-    StatisticsSimpleSampleVariance sut;
-    sut.DumpOneResult(1);
-    sut.DumpOneResult(2);
-    sut.DumpOneResult(3);
-    sut.DumpOneResult(4);
-
-    auto result1 = sut.GetResultsSoFar();
-    cout << "\n" << result1[0][0] << "\n";
-
-    sut.DumpOneResult(5);
-    result1 = sut.GetResultsSoFar();
-    cout << "\n" << result1[0][0];
-
     return EXIT_SUCCESS;
 }
