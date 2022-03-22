@@ -30,19 +30,3 @@ vector<vector<double> > StatisticsSimpleSampleVariance::GetResultsSoFar() const 
 StatisticsMC* StatisticsSimpleSampleVariance::clone() const {
 	return new StatisticsSimpleSampleVariance(*this);
 }
-
-
-//vector<vector<double> > Results{ 1 };
-
-//double mean = 0;
-//for (int i = 0; i < VectorOfPaths.size(); i++)
-//	mean += VectorOfPaths[i];
-//mean /= PathsDone;
-
-//double var_x_pathsdone = 0.0;
-//for (int i = 0; i < VectorOfPaths.size(); i++)
-//	var_x_pathsdone += (VectorOfPaths[i] - mean) * (VectorOfPaths[i] - mean);
-
-//Results[0].resize(1);
-//Results[0][0] = var_x_pathsdone / PathsDone;
-//return Results;
