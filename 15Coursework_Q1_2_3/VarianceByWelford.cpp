@@ -1,5 +1,4 @@
 #include "VarianceByWelford.h"
-#include <iostream>
 
 using namespace std;
 
@@ -12,7 +11,6 @@ void StatisticsWelfordSampleVariance::DumpOneResult(double result) {
 	{
 		WelfordSum += (result - 0) * (result - ((RunningSum + result) / (PathsDone + 1)));
 	}
-	cout << WelfordSum;
 	PathsDone++;
 	RunningSum += result;
 }
