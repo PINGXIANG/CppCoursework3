@@ -10,6 +10,6 @@ public:
 
 private:
 	double RunningSum{ 0.0 };
-	double RunningSquareSum{ 0.0 };
+	double WelfordSum{ 0.0 };
 	unsigned long PathsDone{ 0UL };
 };

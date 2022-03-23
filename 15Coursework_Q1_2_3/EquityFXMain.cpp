@@ -105,7 +105,7 @@ int main()
         cout << "\n";
     }
 
-    cout << "\nFor the Arithmetic Asian call simulation (different sim) variance results are \n";
+    cout << "\nFor the Arithmetic Asian call simulation (different sim) Welford variance results are \n";
 
     for (unsigned long i = 0; i < results2.size(); i++)
     {
@@ -115,7 +115,7 @@ int main()
         cout << "\n";
     }
 
-    cout << "\nFor the Arithmetic Asian call simulation (different sim) Welford variance results are \n";
+    cout << "\nFor the Arithmetic Asian call simulation (different sim) variance results are \n";
 
     for (unsigned long i = 0; i < results3.size(); i++)
     {
@@ -146,7 +146,7 @@ int main()
         cout << "\n";
     }
 
-    cout << "\nFor the Geometric Asian call simulation (different sim) variance results are \n";
+    cout << "\nFor the Geometric Asian call simulation (different sim) Welford variance results are \n";
 
     for (unsigned long i = 0; i < results5.size(); i++)
     {
@@ -156,7 +156,7 @@ int main()
         cout << "\n";
     }
 
-    cout << "\nFor the Geometric Asian call simulation (different sim) Welford variance results are \n";
+    cout << "\nFor the Geometric Asian call simulation (different sim) variance results are \n";
 
     for (unsigned long i = 0; i < results6.size(); i++)
     {
